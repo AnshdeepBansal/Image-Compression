@@ -7,30 +7,16 @@ This project implements a simple Huffman encoding and decoding algorithm for com
 - Python 3.x
 - `Pillow` library
 
-You can install the required library using pip:
-
-```bash
-pip install Pillow
-```
-
 ## Usage
 
 1. Place your BMP image in a folder named `sample` in the same directory as the script.
 2. Ensure the image is named `tiger.bmp`.
 
-### Running the Script
-
-Run the script with Python:
-
-```bash
-python huffman_image_compression.py
-```
-
 ### Output
 
 - The script prints the original size of the image (in pixels) and the encoded size (in bits).
 - The compression ratio is also printed.
-- The compressed and decompressed image is saved as `Compressed_image.jpg`.
+- The compressed image is saved as `Compressed_image.jpg`.
 
 ## Code Explanation
 
@@ -79,17 +65,9 @@ python huffman_image_compression.py
 - Merges the decoded channels back into an image.
 - Saves the final decompressed image as `Compressed_image.jpg`.
 
-## Example
-
-### Original Image
-![Original Image](sample/tiger.bmp)
-
-### Compressed and Decompressed Image
-![Compressed Image](Compressed_image.jpg)
-
 ## Notes
 
-- Ensure the input image is in BMP format for correct processing.
+- Input image can be in any format like jpg/jpeg ,bmp ,png.
 - Adjust the image path and name as needed.
 
 ## Author
